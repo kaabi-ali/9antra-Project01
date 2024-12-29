@@ -1,0 +1,37 @@
+.courses{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 50px;
+
+}
+
+.courses-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-right: 50px;
+}
+.price{
+  color: rgb(177, 14, 177);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.img-course{
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 70px;
+  cursor: pointer;
+}
